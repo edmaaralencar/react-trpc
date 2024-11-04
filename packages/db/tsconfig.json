@@ -1,0 +1,10 @@
+{
+  "extends": ["@boilerplate/tsconfig/node.json"],
+  "include": ["src/**/*", "drizzle.config.ts"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}

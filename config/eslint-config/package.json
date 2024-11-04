@@ -1,0 +1,22 @@
+{
+  "name": "@boilerplate/eslint-config",
+  "version": "1.0.0",
+  "private": true,
+  "files": [
+    "library.js",
+    "node.js",
+    "react.js"
+  ],
+  "devDependencies": {
+    "@boilerplate/prettier": "workspace:*",
+    "@edmaralencar/eslint-config": "^2.0.3",
+    "eslint-plugin-simple-import-sort": "^12.0.0",
+    "eslint": "8.56.0"
+  },
+  "prettier": "@boilerplate/prettier",
+  "eslintConfig": {
+    "extends": [
+      "./library.js"
+    ]
+  }
+}

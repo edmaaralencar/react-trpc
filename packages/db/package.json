@@ -1,0 +1,30 @@
+{
+  "name": "@boilerplate/db",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "db:migrate": "drizzle-kit push"
+  },
+  "dependencies": {
+    "@paralleldrive/cuid2": "^2.2.2",
+    "drizzle-orm": "^0.36.0",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "@boilerplate/eslint-config": "workspace:*",
+    "@boilerplate/prettier": "workspace:*",
+    "@boilerplate/tsconfig": "workspace:*",
+    "@types/node": "^20.11.24",
+    "@types/pg": "^8.11.10",
+    "dotenv": "^16.4.5",
+    "drizzle-kit": "^0.27.1"
+  },
+  "prettier": "@boilerplate/prettier",
+  "eslintConfig": {
+    "extends": [
+      "@boilerplate/eslint-config/react"
+    ]
+  }
+}
